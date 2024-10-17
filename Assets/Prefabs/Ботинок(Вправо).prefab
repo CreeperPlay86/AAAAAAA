@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6324215937901249131}
   - component: {fileID: 6324215937901249130}
-  - component: {fileID: 7362404628653721899}
   - component: {fileID: 614390831423378182}
+  - component: {fileID: -5555820698892051646}
   m_Layer: 0
   m_Name: "\u0411\u043E\u0442\u0438\u043D\u043E\u043A(\u0412\u043F\u0440\u0430\u0432\u043E)"
   m_TagString: Trash
@@ -86,24 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!143 &7362404628653721899
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6324215937901249129}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 9.2
-  m_Radius: 5.7
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &614390831423378182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,3 +101,17 @@ MonoBehaviour:
   moveLeft: 0
   minPos: -13
   maxPos: 13
+  timer: 0
+--- !u!65 &-5555820698892051646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324215937901249129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.548224, y: 9.173577, z: 66.86667}
+  m_Center: {x: -0.0000023841858, y: -0.033475555, z: 1.1293794e-21}

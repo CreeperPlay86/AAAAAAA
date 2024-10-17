@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class FishRod : MonoBehaviour
 { 
@@ -22,12 +25,13 @@ public class FishRod : MonoBehaviour
     #region bool
         public bool isHit;
     #endregion
+
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -51,4 +55,5 @@ public class FishRod : MonoBehaviour
         leska.SetPosition(1, new Vector3(hook.position.x, hook.position.y, hook.position.z));
 
     }
+
 }

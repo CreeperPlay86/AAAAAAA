@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7715006222321871410}
   - component: {fileID: 7715006222321871411}
-  - component: {fileID: 3297486892944775602}
   - component: {fileID: -7507836096557689923}
+  - component: {fileID: 1212431679117616984}
   m_Layer: 0
   m_Name: "\u042F\u0437\u044C(\u0412\u043B\u0435\u0432\u043E)"
   m_TagString: Fish
@@ -86,24 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!143 &3297486892944775602
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7715006222321871412}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 10.3
-  m_Radius: 5.7
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-7507836096557689923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,3 +101,17 @@ MonoBehaviour:
   moveLeft: 1
   minPos: -13
   maxPos: 13
+  timer: 0
+--- !u!65 &1212431679117616984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7715006222321871412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.390684, y: 6.743075, z: 66.866684}
+  m_Center: {x: -0.0012000401, y: -0.010854403, z: -0.0000063578286}
